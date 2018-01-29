@@ -11,9 +11,24 @@ https://cloud.google.com/compute/docs/tutorials/python-guide
 http://docs.ansible.com/ansible/latest/guide_gce.html
 
 
-Environment & Dependencies:
+Procedure
 
--Python3
--Ansible
--Pip
--libcloud
+Install Ansible
+Install python
+Install python-pip
+Install libcloud ("sudo pip install apache-libcloud --upgrade")
+Install/Upgrade requests module ("sudo pip install requests --upgrade")
+
+Set the global env variables
+
+GCE_EMAIL
+GCE_PROJECT
+GCE_CREDENTIALS_FILE_PATH
+
+in the /etc/environment file
+
+copy the gce.py and the gce.ini file in the Ansible inventory directory, populate the gce.ini file with the env variables
+
+launch gce.py --list to test the listing of the google cloud instances.
+
+
