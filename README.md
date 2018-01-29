@@ -23,12 +23,10 @@ Set the global env variables
 
 GCE_EMAIL
 GCE_PROJECT
-GCE_CREDENTIALS_FILE_PATH
+GCE_CREDENTIALS_FILE_PATH in the /etc/environment file
 
-in the /etc/environment file
+Copy the gce.py and the gce.ini file in the Ansible inventory directory, populate the gce.ini file with the env variables
 
-copy the gce.py and the gce.ini file in the Ansible inventory directory, populate the gce.ini file with the env variables
-
-launch gce.py --list to test the listing of the google cloud instances.
+Launch gce.py --list to test the listing of the google cloud instances.
 
 
