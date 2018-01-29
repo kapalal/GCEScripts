@@ -23,7 +23,7 @@ Install libcloud ("sudo pip install apache-libcloud --upgrade")
 
 Install/Upgrade requests module ("sudo pip install requests --upgrade")
 
-Install/Upgrade pycrypto module sudo pip3 install pycrypto --upgrade *REQUIRES THE WHOLE CONF ABOVE WITH PYTHON3
+Install/Upgrade pycrypto module ("sudo pip3 install pycrypto --upgrade") *REQUIRES THE WHOLE CONF ABOVE WITH PYTHON3
 
 Set the global env variables:
 
