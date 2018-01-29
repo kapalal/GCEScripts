@@ -1,0 +1,9 @@
+---
+
+- name: Create instance
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  roles: 
+    - Create_Instance 
+

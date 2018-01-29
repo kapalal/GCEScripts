@@ -1,0 +1,9 @@
+---
+#REPLACE THE EXAMPLE VALUES
+service_account_email: example@example.iam.gserviceaccount.com #insert your service account email
+credentials_file: /directory/example.json # insert your path to the service account key
+project_id: example-0546513 #your Google Cloud Project ID
+machine_type: n1-standard-1 #Your machine type
+image:  ubuntu-1704 #The image used for the machine 
+instance_name: linuxbox #The instance name
+zone: europe-west3-a #The zone where the instance will be created (A list of the available zone can be found

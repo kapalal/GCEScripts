@@ -1,0 +1,9 @@
+---
+
+ - name: Delete instance 
+   gce:
+       instance_names: "{{ instance_name }}"
+       service_account_email: "{{ service_account_email }}"
+       credentials_file: "{{ credentials_file }}"
+       project_id: "{{ project_id }}"
+       state: absent

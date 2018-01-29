@@ -1,0 +1,8 @@
+---
+
+service_account_email: ansible@nextest-182714.iam.gserviceaccount.com
+credentials_file: /vagrant_data/GoogleCloud/Nextest-85a34d05c0e4.json
+project_id: nextest-182714
+machine_type: n1-standard-1
+image: ubuntu-1704
+instance_name: test2
